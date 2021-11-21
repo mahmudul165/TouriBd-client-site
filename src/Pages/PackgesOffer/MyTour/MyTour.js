@@ -77,37 +77,6 @@ const MyTour = () => {
                       </div>
                     </div>
                   </div>
-                  {/* <div className="col">
-                    <div className="p-3 border bg-light">
-                      <div className="  " key={order._id}>
-                        <h3>
-                          <span>
-                            <i className="fas fa-user"></i>
-                          </span>
-                        </h3>
-                        <h4 className="text-primary">
-                          {order?.data?.customer_name}
-                        </h4>
-                        <h6 className="text-secondary">
-                          {order?.data?.order_name}
-                        </h6>
-                        <h4>
-                          <animated.div style={styles}>
-                            <span className="mx-2 px-2">
-                              <i className="fas fa-mouse"></i>
-                            </span>
-                            {order.status}
-                          </animated.div>
-                        </h4>
-                        <button
-                          className="btn btn-danger"
-                          onClick={() => handleDelete(order._id)}
-                        >
-                          Delete
-                        </button>
-                      </div>
-                    </div>
-                  </div> */}
                 </div>
               </div>
             </>

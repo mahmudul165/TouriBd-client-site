@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Project Name :"TourBd"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Preview:"https://tourbd-692a6.web.app/"
 
-## Available Scripts
+## Client site Code(github):"https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-mahmudul165"
 
-In the project directory, you can run:
+## Server site Code(github):"https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-mahmudul165.git"
 
-### `yarn start`
+## Description:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 1.In Home page you can see navbar ,Banner,Tour packages,Other Services,About us,contact us,Public review and also a RESPONSIVE footer section .WHOLE SITE ARE MOBILE AND DESKTOP FRIENDLY.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 2.After complete your AUTHENTICATION you can get some option .In "Pages" You can get option to "Add Package","MYTour","Manage All Order". IN HOME page you can see Taravel packages .from there you see detais info and also order.
 
-### `yarn test`
+### 3.When you place an order you can see all your BOOKING info.And also delete your Order.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3.ADMIN section of "Manage all Package" you can see all the user info and can approved any order or reject any one. YOU can update Order "Status"
 
-### `yarn build`
+### 4.when admin updated order status user can see their updated STATUS.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 5.Specefic youser see only their own info in "MyOrder" option.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 6.Many pages are protected for average user when then are interestes and authentication successfully then they route to protected page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 7.When Order are place you can get email notification automiticall.
 
-### `yarn eject`
+## Tecnology :
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#Fontend Tecnology
+1.ReactBootstrap,
+2.ReactFontAwesome
+3.React Spring Animation
+4.Html5,CSS3,JAVASCRIPT,ES6
+5.React HOOK
+6.REACT ROUTER DOM
+7.React Awesome Button
+#Backend Tecnology
+1.Express js,NodeMailer
+2.MongoDb Database
+3.Node js
+4.Firebase Authentication
