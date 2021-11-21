@@ -1,0 +1,27 @@
+import React, { useEffect, useState } from "react";
+import Service from "../Service/Service";
+import "./Services.css";
+
+const Services = () => {
+  const [services, setServices] = useState([]);
+  useEffect(() => {
+    fetch("https://intense-caverns-52774.herokuapp.com/packages")
+      .then((res) => res.json())
+      .then((data) => setServices(data));
+  }, []);
+
+  return (
+    <div id="package" className="container">
+      <h2 className="text-primary mt-5  my-3 py-2">
+        Our <span className="text-warning  ">Package</span>
+      </h2>
+      <div className="service-container">
+        {services.map((service) => (
+          <Service key={service._id} service={service}></Service>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Services;
