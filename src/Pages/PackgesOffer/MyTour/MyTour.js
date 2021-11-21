@@ -77,7 +77,7 @@ const MyTour = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col">
+                  {/* <div className="col">
                     <div className="p-3 border bg-light">
                       <div className="  " key={order._id}>
                         <h3>
@@ -107,7 +107,7 @@ const MyTour = () => {
                         </button>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </>
