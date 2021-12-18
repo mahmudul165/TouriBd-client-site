@@ -53,20 +53,28 @@ const Header = () => {
               <>
                 <NavDropdown title="Pages" id="offcanvasNavbarDropdown">
                   <NavDropdown.Item>
-                    <NavLink to="/addPackage" className="text-decoration-none">
-                      Add Package
-                    </NavLink>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
                     <NavLink to="/myTour" className="text-decoration-none">
                       My Tour
                     </NavLink>
                   </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <NavLink to="/manageTour" className="text-decoration-none">
-                      Manage All Order
-                    </NavLink>
-                  </NavDropdown.Item>
+                  <NavDropdown title="Admin" id="offcanvasNavbarDropdown">
+                    <NavDropdown.Item>
+                      <NavLink
+                        to="/addPackage"
+                        className="text-decoration-none"
+                      >
+                        Add Package
+                      </NavLink>
+                    </NavDropdown.Item>
+                    <NavDropdown.Item>
+                      <NavLink
+                        to="/manageTour"
+                        className="text-decoration-none"
+                      >
+                        Manage All Order
+                      </NavLink>
+                    </NavDropdown.Item>
+                  </NavDropdown>
                 </NavDropdown>
                 <span className="ms-1  "></span>
                 <NavDropdown
